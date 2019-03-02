@@ -36,6 +36,13 @@ $(document).ready(function () {
     }
   });
 
+  //prevent space scrolling
+  window.addEventListener('keydown', function(e) {
+    if(e.keyCode == 32 && e.target == document.body) {
+      e.preventDefault();
+    }
+  });
+
   $('.player').click(function () { //Use the position to seek when clicked
     $('.position').css('width', scrub + "px");
     var seek = player.duration * (scrub / pWidth);
