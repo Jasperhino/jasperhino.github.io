@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -25,13 +25,13 @@ hr.light {
 }
 
 a {
-  color: #2e8cda;
+  color: #902475;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #2e8cda;
+  color: #b700ff;
 }
 
 h1,
@@ -346,5 +346,9 @@ header.masthead p {
 }
 
 .darker {
-  filter:brightness(30%);
+  filter:brightness(40%);
+}
+
+footer {
+  color: white;
 }
