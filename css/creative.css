@@ -137,7 +137,7 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 1);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #fff;
@@ -147,15 +147,15 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 1);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(33, 37, 41, 0.2);
+    background-color: rgba(255, 255, 255, 1);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
